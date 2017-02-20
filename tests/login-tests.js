@@ -16,6 +16,7 @@ module.exports = {
                 .end();
 
   },
+
   'test for login the web-application': function(client) {
           client
               .url('http://nelisa123.projectcodex.co/login')
@@ -28,8 +29,6 @@ module.exports = {
               .end();
       },
 
-
-
       'test if a input has a long string in the username and password if anything will break in the login': function(client) {
           client
               .url('http://nelisa123.projectcodex.co/login')
@@ -41,7 +40,6 @@ module.exports = {
       },
 
       'test if only when there is a password will it login and will the errorhandler show': function(client) {
-
           client
               .url('http://nelisa123.projectcodex.co/login')
               .setValue('input[type=password]', 'pass')

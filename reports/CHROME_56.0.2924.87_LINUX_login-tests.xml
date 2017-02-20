@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="5">
+
+  <testsuite name="login-tests"
+    errors="0" failures="1" hostname="" id="" package="login-tests" skipped="0"
+    tests="5" time="42.08" timestamp="Mon, 20 Feb 2017 20:56:40 GMT">
+  
+    <testcase name="Login test" time="10.35" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="test for login the web-application" time="5.814" assertions="0">
+    </testcase>
+  
+    <testcase name="test if a input has a long string in the username and password if anything will break in the login" time="8.702" assertions="0">
+    </testcase>
+  
+    <testcase name="test if only when there is a password will it login and will the errorhandler show" time="8.581" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="test if only when there is a username will it login and will the errorhandler show" time="8.628" assertions="1">  <failure message="Timed out while waiting for element &lt;h4[id=&quot;warning&quot;]&gt; to be visible for 1000 milliseconds.">    at Object.module.exports.test if only when there is a username will it login and will the errorhandler show (/home/bootcamp/Project/likhona-test/tests/login-tests.js:57:16)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>

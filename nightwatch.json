@@ -20,7 +20,7 @@
 
   "test_settings" : {
     "default" : {
-      "launch_url" : "http://localhost",
+      "launch_url" : "http://nelisa123.projectcodex.co/signup",
       "selenium_port"  : 4444,
       "selenium_host"  : "localhost",
       "silent": false,
@@ -28,6 +28,8 @@
         "enabled" : false,
         "path" : ""
       },
+
+
       "desiredCapabilities": {
         "browserName": "chrome",
         "javascriptEnabled" : true,
