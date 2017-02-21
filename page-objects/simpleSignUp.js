@@ -8,18 +8,15 @@ module.exports = {
 		},
     email: {
       selector: 'input[name=email]'
-    },
+		},
 		password: {
-			selector: 'input[name=password]'
-		},
+			selector: 'input[name=password]'},
     confirmpassword: {
-			selector: 'input[name=confirmPassword]'
-		},
+			selector: 'input[name=confirmPassword]'},
 		submit: {
-			selector: 'input[type=submit]'
-		},
+			selector: 'input[type=submit]'},
 		error: {
 			selector: '.error'
-		}
+    }
 	}
 };
