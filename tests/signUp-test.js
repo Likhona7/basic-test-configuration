@@ -13,6 +13,5 @@ module.exports = {
                 .click('button[class="btn btn-default-outline waves-effect glyphicon glyphicon-plus-sign"]')
                 .pause(1000)
                 .end();
-
   },
 };

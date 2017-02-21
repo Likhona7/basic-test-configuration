@@ -2,6 +2,8 @@ module.exports = {
 	url: function() {
 		return this.api.launchUrl;
 	},
+	// url: 'http://nelisa123.projectcodex.co/signup',
+
 	elements: {
 		username: {
 			selector: 'input[name=username]'
@@ -10,11 +12,14 @@ module.exports = {
       selector: 'input[name=email]'
 		},
 		password: {
-			selector: 'input[name=password]'},
+			selector: 'input[name=password]'
+		},
     confirmpassword: {
-			selector: 'input[name=confirmPassword]'},
+			selector: 'input[name=confirmPassword]'
+		},
 		submit: {
-			selector: 'input[type=submit]'},
+			selector: 'button[type=submit]'
+		},
 		error: {
 			selector: '.error'
     }
