@@ -2,7 +2,6 @@ module.exports = {
 	url: function() {
 		return this.api.launchUrl;
 	},
-	// url: 'http://nelisa123.projectcodex.co/signup',
 
 	elements: {
 		username: {
@@ -21,7 +20,7 @@ module.exports = {
 			selector: 'button[type=submit]'
 		},
 		error: {
-			selector: '.error'
+			selector: 'id="warning"'
     }
 	}
 };

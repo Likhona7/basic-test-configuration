@@ -5,9 +5,9 @@
 
   <testsuite name="signUp-test"
     errors="0" failures="0" hostname="" id="" package="signUp-test" skipped="0"
-    tests="1" time="8.593" timestamp="Tue, 21 Feb 2017 22:24:02 GMT">
+    tests="1" time="13.14" timestamp="Wed, 22 Feb 2017 16:45:52 GMT">
   
-    <testcase name="signUp testing for In visible input" time="8.593" assertions="8">
+    <testcase name="signUp testing for In visible input" time="13.14" assertions="8">
 
     
 

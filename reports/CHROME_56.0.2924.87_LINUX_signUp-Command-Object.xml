@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="3"
+            failures="1"
+            tests="3">
+
+  <testsuite name="signUp-Command-Object"
+    errors="3" failures="1" hostname="" id="" package="signUp-Command-Object" skipped="0"
+    tests="3" time="15.96" timestamp="Wed, 22 Feb 2017 16:45:36 GMT">
+  
+    <testcase name="SignUp Page Initial Render" time="6.045" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to sign in with no username, email, password and confirm password" time="9.914" assertions="5">
+
+      <failure message="Testing if element &lt;id=&quot;warning&quot;&gt; is visible. Element could not be located.">    at Object.signInCommands.validateError (/home/bootcamp/Project/likhona-test/page-objects/commandSignUp.js:24:28)
+    at Object.module.exports.Try to sign in with no username, email, password and confirm password (/home/bootcamp/Project/likhona-test/tests/signUp-Command-Object.js:13:12)</failure>
+
+      <failure message="Testing if element &lt;id=&quot;warning&quot;&gt; contains text: &quot;Username/Password too short, should be 3 letters long&quot;. Element could not be located.">    at Object.signInCommands.validateError (/home/bootcamp/Project/likhona-test/page-objects/commandSignUp.js:25:21)
+    at Object.module.exports.Try to sign in with no username, email, password and confirm password (/home/bootcamp/Project/likhona-test/tests/signUp-Command-Object.js:13:12)</failure>
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Try to login with a username and no password" time="0.005000" assertions="0">
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
